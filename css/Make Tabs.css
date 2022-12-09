@@ -1,0 +1,26 @@
+.tabs {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tabs li {
+	padding: 10px;
+	background: #f6f4f4;
+	border: 1px solid white;
+	curser: pointer;
+	transition: .2s;
+}
+.tabs .active,
+.tabs li:hover {
+	background: #ddd;
+}
+.content {
+	background: #ddd;
+}
+.content > div {
+	padding: 20px;
+}
+.content > div:not(:first-child) {
+	display: none;
+}
